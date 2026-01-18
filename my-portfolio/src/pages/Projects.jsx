@@ -43,17 +43,17 @@ const Projects = () => {
             Bootstrap
           </span>
           <span className="px-3 py-1 text-sm bg-secondary text-secondary-foreground">
-            HTML & CSS
+            HTML
           </span>
           <span className="px-3 py-1 text-sm bg-secondary text-secondary-foreground">
-            PostgreSQL
+            CSS
           </span>
         </div>
         <button
           data-slot="button"
           className="inline-flex items-center justify-center gap-2 rounded-md text-sm font-medium border shadow-xs h-9 px-4 py-2 group bg-transparent hover:bg-accent hover:text-accent-foreground transition-all"
         >
-          View Project
+          <a href="https://gulfstreamg700.netlify.app/#overview">View Project</a>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"

@@ -5,9 +5,8 @@ const Contact = () => {
    
     <section
   id="contact"
-  className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 py-20 bg-secondary/30"
->
-  <div className="container mx-auto max-w-4xl">
+  className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 py-20 bg-secondary/30">
+  <div className="container mx-auto max-w-4xl bg-white border-border p-10 rounded-t-4xl shadow-lg">
     <h2 className="text-4xl sm:text-5xl font-bold mb-8 text-balance">
       Connect With Me
     </h2>
