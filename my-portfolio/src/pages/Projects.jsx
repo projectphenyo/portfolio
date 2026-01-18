@@ -2,7 +2,7 @@ import React from 'react'
 
 const Projects = () => {
   return (
-    <div className="container mx-auto max-w-6xl">
+    <div className="container mx-auto max-w-6xl bg-white border-border p-10 rounded-t-4xl shadow-lg my-20">
   <h2 className="text-4xl sm:text-5xl font-semibold mb-12 text-balance text-center">
     My Projects
   </h2>

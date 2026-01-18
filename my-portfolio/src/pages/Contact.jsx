@@ -13,7 +13,7 @@ const Contact = () => {
     <p className="text-lg text-muted-foreground mb-12 text-pretty">
       I’m always excited to connect with new people, collaborate on creative
       projects, or discuss opportunities. Feel free to reach out through
-      email, LinkedIn, or GitHub — I’ll get back to you as soon as possible.
+      email or GitHub — I’ll get back to you as soon as possible.
     </p>
 
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
@@ -77,31 +77,7 @@ const Contact = () => {
               <span>projectphenyo@gmail.com</span>
             </a>
 
-            {/* LinkedIn */}
-            <a
-              href="https://linkedin.com/in/yourprofile"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="lucide lucide-linkedin h-5 w-5"
-              >
-                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
-                <rect width="4" height="12" x="2" y="9" />
-                <circle cx="4" cy="4" r="2" />
-              </svg>
-              <span>LinkedIn</span>
-            </a>
-
+        
             {/* GitHub */}
             <a
               href="https://github.com/projectphenyo"
