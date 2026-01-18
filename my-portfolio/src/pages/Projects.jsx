@@ -34,7 +34,7 @@ const Projects = () => {
           data-slot="card-description"
           className="text-muted-foreground text-base leading-relaxed"
         >
-          A full-stack
+          Welcome to a mobile-responsive website showcasing a Gulfstream Aircraft G700
         </div>
       </div>
       <div data-slot="card-content" className="px-6">
@@ -53,7 +53,8 @@ const Projects = () => {
           data-slot="button"
           className="inline-flex items-center justify-center gap-2 rounded-md text-sm font-medium border shadow-xs h-9 px-4 py-2 group bg-transparent hover:bg-accent hover:text-accent-foreground transition-all"
         >
-          <a href="https://gulfstreamg700.netlify.app/#overview">View Project</a>
+          <a href="https://github.com/projectphenyo/Gulfstream-Website" target="_blank" rel="noopener noreferrer">
+           View Project on GitHub</a>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -92,32 +93,32 @@ const Projects = () => {
         className="grid auto-rows-min grid-rows-[auto_auto] items-start gap-2 px-6"
       >
         <div data-slot="card-title" className="font-semibold text-2xl">
-          Gulfstream Website
+          Digital Clock App
         </div>
         <div
           data-slot="card-description"
           className="text-muted-foreground text-base leading-relaxed"
         >
-          A full-stack
+          A mobile-responsive South African Standard Time (SAST) digital clock.
         </div>
       </div>
       <div data-slot="card-content" className="px-6">
         <div className="flex flex-wrap gap-2 mb-4">
           <span className="px-3 py-1 text-sm bg-secondary text-secondary-foreground">
-            Bootstrap
+            JavaScript
           </span>
           <span className="px-3 py-1 text-sm bg-secondary text-secondary-foreground">
-            HTML & CSS
+            CSS
           </span>
           <span className="px-3 py-1 text-sm bg-secondary text-secondary-foreground">
-            PostgreSQL
+            HTML
           </span>
         </div>
         <button
           data-slot="button"
-          className="inline-flex items-center justify-center gap-2 rounded-md text-sm font-medium border shadow-xs h-9 px-4 py-2 group bg-transparent hover:bg-accent hover:text-accent-foreground transition-all"
-        >
-          View Project
+          className="inline-flex items-center justify-center gap-2 rounded-md text-sm font-medium border shadow-xs h-9 px-4 py-2 group bg-transparent hover:bg-accent hover:text-accent-foreground transition-all">
+              <a href="https://github.com/projectphenyo/Digital-Clock" target="_blank" rel="noopener noreferrer">
+           View Project on GitHub</a>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
