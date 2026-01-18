@@ -6,10 +6,10 @@ function App() {
   
 
   return (
-    <>
+    <div className="text-sm md:text-lg">
       <Navbar />
       <Hero />
-    </>
+    </div>
   )
 }
 
