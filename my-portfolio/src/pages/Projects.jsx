@@ -151,7 +151,7 @@ const Projects = () => {
           loading="lazy"
           decoding="async"
           className="object-cover hover:scale-105 transition-transform duration-300 absolute inset-0 w-full h-full"
-          src="/modern-ecommerce-interface.png"
+          src="/assets/cryptx.png"
         />
       </div>
       <div
