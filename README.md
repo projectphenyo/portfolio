@@ -15,8 +15,6 @@ Tech stack: **JavaScript**, **HTML**, and **React**
 - React Router internal links
 - Modern styling with Tailwind CSS
 
-## 🚀 Live Demo
-👉 View Portfolio Website ()
 
 ## ⚙️ Installation
 
