@@ -1,5 +1,8 @@
 import React from 'react'
 
+
+
+
 const Projects = () => {
   return (
     <div className="container mx-auto max-w-6xl bg-white border-border p-10 rounded-t-4xl shadow-lg my-20">
@@ -16,12 +19,11 @@ const Projects = () => {
     >
       <div className="relative w-full h-48 bg-secondary overflow-hidden">
         <img
-          alt="E-Commerce Platform preview"
+          alt="Aircraft G700 preview"
           loading="lazy"
           decoding="async"
           className="object-cover hover:scale-105 transition-transform duration-300 absolute inset-0 w-full h-full"
-          src="/modern-ecommerce-interface.png"
-        />
+          src="/assets/Gulfstream.png"/>
       </div>
       <div
         data-slot="card-header"
@@ -51,7 +53,7 @@ const Projects = () => {
         </div>
         <button
           data-slot="button"
-          className="inline-flex items-center justify-center gap-2 rounded-md text-sm font-medium border shadow-xs h-9 px-4 py-2 group bg-transparent hover:bg-accent hover:text-accent-foreground transition-all"
+          className="inline-flex items-center justify-center gap-2 rounded-md text-sm font-medium border shadow-xs h-9 px-4 py-2 group bg-transparent hover:bg-accent hover:text-accent-foreground transition-all bg-yellow-500"
         >
           <a href="https://github.com/projectphenyo/Gulfstream-Website" target="_blank" rel="noopener noreferrer">
            View Project on GitHub</a>
@@ -81,11 +83,11 @@ const Projects = () => {
     >
       <div className="relative w-full h-48 bg-secondary overflow-hidden">
         <img
-          alt="E-Commerce Platform preview"
+          alt="Digital Clock App preview"
           loading="lazy"
           decoding="async"
           className="object-cover hover:scale-105 transition-transform duration-300 absolute inset-0 w-full h-full"
-          src="/modern-ecommerce-interface.png"
+          src="/assets/clock.png"
         />
       </div>
       <div
@@ -116,7 +118,7 @@ const Projects = () => {
         </div>
         <button
           data-slot="button"
-          className="inline-flex items-center justify-center gap-2 rounded-md text-sm font-medium border shadow-xs h-9 px-4 py-2 group bg-transparent hover:bg-accent hover:text-accent-foreground transition-all">
+          className="inline-flex items-center justify-center gap-2 rounded-md text-sm font-medium border shadow-xs h-9 px-4 py-2 group bg-transparent hover:bg-accent hover:text-accent-foreground transition-all bg-yellow-500">
               <a href="https://github.com/projectphenyo/Digital-Clock" target="_blank" rel="noopener noreferrer">
            View Project on GitHub</a>
           <svg
@@ -145,7 +147,7 @@ const Projects = () => {
     >
       <div className="relative w-full h-48 bg-secondary overflow-hidden">
         <img
-          alt="E-Commerce Platform preview"
+          alt="CryptX Platform preview"
           loading="lazy"
           decoding="async"
           className="object-cover hover:scale-105 transition-transform duration-300 absolute inset-0 w-full h-full"
@@ -157,32 +159,31 @@ const Projects = () => {
         className="grid auto-rows-min grid-rows-[auto_auto] items-start gap-2 px-6"
       >
         <div data-slot="card-title" className="font-semibold text-2xl">
-          Gulfstream Website
+          CryptX Platform
         </div>
         <div
           data-slot="card-description"
           className="text-muted-foreground text-base leading-relaxed"
         >
-          A full-stack
+          A responsive Single-Page Application (SPA) fintech/crypto platform.
         </div>
       </div>
       <div data-slot="card-content" className="px-6">
         <div className="flex flex-wrap gap-2 mb-4">
           <span className="px-3 py-1 text-sm bg-secondary text-secondary-foreground">
-            Bootstrap
+            JavaScript
           </span>
           <span className="px-3 py-1 text-sm bg-secondary text-secondary-foreground">
             HTML & CSS
           </span>
-          <span className="px-3 py-1 text-sm bg-secondary text-secondary-foreground">
-            PostgreSQL
-          </span>
+        
         </div>
         <button
           data-slot="button"
-          className="inline-flex items-center justify-center gap-2 rounded-md text-sm font-medium border shadow-xs h-9 px-4 py-2 group bg-transparent hover:bg-accent hover:text-accent-foreground transition-all"
+          className="inline-flex items-center justify-center gap-2 rounded-md text-sm font-medium border shadow-xs h-9 px-4 py-2 group bg-transparent hover:bg-accent hover:text-accent-foreground transition-all bg-yellow-500"
         >
-          View Project
+         <a href="https://github.com/projectphenyo/CryptX-" target="_blank" rel="noopener noreferrer">
+         View Project on GitHub</a>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"

@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className="text-white max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
         <a href="/" className="font-semibold hover:text-yellow-300 font-mono">
-          MyPortfolio
+          🧠MyPortfolio
         </a>
 
         {/* Nav Links */}
@@ -22,6 +22,11 @@ const Navbar = () => {
           <li>
             <Link to="/about" className="hover:text-yellow-300">
               About
+            </Link>
+          </li>
+           <li>
+            <Link to="/skills" className="hover:text-yellow-300">
+              Skills
             </Link>
           </li>
           <li>
