@@ -151,7 +151,7 @@ const Projects = () => {
           loading="lazy"
           decoding="async"
           className="object-cover hover:scale-105 transition-transform duration-300 absolute inset-0 w-full h-full"
-          src="/assets/cryptx.png"
+          src="/assets/crypt.png"
         />
       </div>
       <div
@@ -174,9 +174,11 @@ const Projects = () => {
             JavaScript
           </span>
           <span className="px-3 py-1 text-sm bg-secondary text-secondary-foreground">
-            HTML & CSS
+            CSS
           </span>
-        
+        <span className="px-3 py-1 text-sm bg-secondary text-secondary-foreground">
+            HTML
+          </span>
         </div>
         <button
           data-slot="button"
